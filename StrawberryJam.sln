@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "StrawberryJam.Shared", "StrawberryJam.Shared\StrawberryJam.Shared.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrawberryJam.Windows", "StrawberryJam.Windows\StrawberryJam.Windows.csproj", "{BACEE56A-BCF7-405F-8C4E-CC816702D72F}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		StrawberryJam.Shared\StrawberryJam.Shared.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+		StrawberryJam.Shared\StrawberryJam.Shared.projitems*{bacee56a-bcf7-405f-8c4e-cc816702d72f}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BACEE56A-BCF7-405F-8C4E-CC816702D72F}.Debug|x86.ActiveCfg = Debug|x86
+		{BACEE56A-BCF7-405F-8C4E-CC816702D72F}.Debug|x86.Build.0 = Debug|x86
+		{BACEE56A-BCF7-405F-8C4E-CC816702D72F}.Release|x86.ActiveCfg = Release|x86
+		{BACEE56A-BCF7-405F-8C4E-CC816702D72F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A04FB7B6-33BF-4E27-AFC9-0186BF2BC9E6}
+	EndGlobalSection
+EndGlobal
